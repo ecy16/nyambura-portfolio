@@ -567,12 +567,8 @@ margin-bottom: 20px;
     0 35px 80px rgba(0, 0, 0, 0.35),
     0 0 70px rgba(47, 133, 90, 0.08);
 
-  transform:
-    perspective(1000px)
-    rotateY(-4deg);
 
-  animation:
-    code-float 6s ease-in-out infinite;
+  
 }
 
 .window-header {
@@ -690,16 +686,6 @@ margin-bottom: 20px;
 }
 
 .floating-icon {
-  width: 31px;
-  height: 31px;
-
-  display: grid;
-  place-items: center;
-
-  border-radius: 8px;
-
-  background: rgba(74, 222, 128, 0.1);
-
   color: var(--mint);
 
   font-size: 0.85rem;
@@ -714,7 +700,6 @@ margin-bottom: 20px;
   right: -2%;
   bottom: 12%;
 
-  animation-delay: -2s;
 }
 
 .scroll-indicator {
@@ -1583,7 +1568,6 @@ margin-bottom: 20px;
 
   padding-bottom: 7px;
 
-  border-bottom: 1px solid var(--green-bright);
 
   color: var(--text);
 
